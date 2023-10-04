@@ -1,3 +1,5 @@
+console.log("");
+
 let cartItems = [];
 
 let orderItems = [];

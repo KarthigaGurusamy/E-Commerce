@@ -1,3 +1,4 @@
+console.log("");
 let staticProducts = [
   {
     id: 1,
