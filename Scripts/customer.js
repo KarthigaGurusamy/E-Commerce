@@ -57,6 +57,7 @@ window.addEventListener("load", () => {
     localStorage.setItem("products", JSON.stringify(staticProducts));
   }
   if (location.pathname === "/E-Commerce/User/home.html") {
+    console.log("Hello");
     ProductsLoadAction();
     CartCountAction();
   }
