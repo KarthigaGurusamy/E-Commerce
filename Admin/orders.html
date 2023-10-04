@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <script src="../Scripts/admin.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand text-white" href="home.html">ShopIt</a>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarTogglerDemo03"
+          >
+            <button class="btn text-white" type="submit">Orders</button>
+            <button class="btn text-white" onclick="LogOutAction()">Log out</button>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-5">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Order ID</th>
+                <th scope="col">Ordered By</th>
+                <th scope="col">Date</th>
+                <th scope="col">Products</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody id="ordersplacedpage">
+              
+            </tbody>
+          </table>
+    </div>
+
+    <!-- <footer class="bg-dark text-center text-lg-start fixed-bottom">
+    
+      <div class="text-center text-white p-3" style="background-color: rgb(5, 5, 5);">
+        © 2020 Copyright:
+        <a class="text-white" href="http://127.0.0.1:5500/index.html">ShopIt.com</a>
+      </div>
+     
+    </footer> -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
