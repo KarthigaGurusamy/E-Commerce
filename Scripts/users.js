@@ -43,7 +43,7 @@ const LoginAction = () => {
         ) {
           sessionStorage.setItem("adminid",admin.id);
           sessionStorage.setItem("adminemail",admin.email);
-          window.location.replace("Admin/home.html");
+          window.location.replace("/E-Commerce/Admin/home.html");
           isUser = 1;
           break;
         }
@@ -55,7 +55,7 @@ const LoginAction = () => {
         ) {
           sessionStorage.setItem("userid",user.id);
           sessionStorage.setItem("useremail",user.email);
-          window.location.replace("User/home.html");
+          window.location.replace("/E-Commerce/User/home.html");
           isUser = 1;
           break;
         }
@@ -106,7 +106,7 @@ const SignUpAction = () => {
           });
           localStorage.setItem("users", JSON.stringify(userArr));
         }
-        window.location.replace("index.html");
+        window.location.replace("/E-Commerce/index.html");
       } else {
         errorMsgRef.innerText = "Oops! mismatch of password and confirm password";
       }

@@ -44,14 +44,14 @@ window.addEventListener("load", () => {
   if (location.pathname === "/E-Commerce/Admin/home.html") {
     ProductDetilsLoad();
   }
-  if (location.pathname === "/Admin/orders.html") {
+  if (location.pathname === "/E-Commerce/Admin/orders.html") {
     OrdersPage();
   }
 });
 
 const RemoveToast = (editId=0) => {
   document.getElementById("toastmsg").innerHTML = "";
-  window.location.replace("home.html");
+  window.location.replace("/E-Commerce/home.html");
 };
 const displayToast = (editId=0) => {
   // console.log("hello");
