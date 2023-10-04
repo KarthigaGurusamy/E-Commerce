@@ -41,17 +41,17 @@ window.addEventListener("load", () => {
   if (!localStorage.getItem("products")) {
     localStorage.setItem("products", JSON.stringify(staticProducts));
   }
-  if (location.pathname === "/E-Commerce/Admin/home.html") {
+  if (location.pathname === "/Admin/home.html") {
     ProductDetilsLoad();
   }
-  if (location.pathname === "/E-Commerce/Admin/orders.html") {
+  if (location.pathname === "/Admin/orders.html") {
     OrdersPage();
   }
 });
 
 const RemoveToast = (editId=0) => {
   document.getElementById("toastmsg").innerHTML = "";
-  window.location.replace("/E-Commerce/home.html");
+  window.location.replace("home.html");
 };
 const displayToast = (editId=0) => {
   // console.log("hello");
@@ -77,7 +77,7 @@ const displayToast = (editId=0) => {
 const LogOutAction = () => {
   sessionStorage.removeItem("adminemail");
   sessionStorage.removeItem("adminid");
-  window.location.replace("/E-Commerce/index.html");
+  window.location.replace("/index.html");
 };
 
 let productDetailsRef = document.getElementById("productdetails");
