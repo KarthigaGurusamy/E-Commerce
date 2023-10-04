@@ -50,7 +50,7 @@ window.addEventListener("load", () => {
 
 const RemoveToast = (editId=0) => {
   document.getElementById("toastmsg").innerHTML = "";
-  location.replace("home.html");
+  window.location.replace("home.html");
 };
 const displayToast = (editId=0) => {
   // console.log("hello");
@@ -76,7 +76,7 @@ const displayToast = (editId=0) => {
 const LogOutAction = () => {
   sessionStorage.removeItem("adminemail");
   sessionStorage.removeItem("adminid");
-  location.replace("/index.html");
+  window.location.replace("/index.html");
 };
 
 let productDetailsRef = document.getElementById("productdetails");

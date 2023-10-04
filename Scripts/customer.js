@@ -71,7 +71,7 @@ window.addEventListener("load", () => {
 const LogOutAction = () => {
   sessionStorage.removeItem("adminemail");
   sessionStorage.removeItem("adminid");
-  location.replace("/index.html");
+  window.location.replace("/index.html");
 };
 
 const CartCountAction = () => {
