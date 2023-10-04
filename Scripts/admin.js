@@ -5,28 +5,28 @@ let staticProducts = [
     price: 1000,
     description:
       "Long Lasting And Highly Comfortable New Ladies Handbag Pink Color Gender: Women",
-    image: "E-Commerce/Images/hb1.jpg",
+    image: "/Images/hb1.jpg",
   },
   {
     id: 2,
     productName: "Brown Bag",
     price: 2000,
     description: "Tote Bag With Detachable Sling Strap",
-    image: "E-Commerce/Images/hb2.jpg",
+    image: "/Images/hb2.jpg",
   },
   {
     id: 3,
     productName: "Grey Bag",
     price: 1500,
     description: "Grey Solid Shoulder Bag",
-    image: "E-Commerce/Images/hb3.jpg",
+    image: "/Images/hb3.jpg",
   },
   {
     id: 4,
     productName: "Purple Bag",
     price: 1000,
     description: "Reptilian Pattern Satchel Bag with Detachable Strap",
-    image: "E-Commerce/Images/hb4.jpg",
+    image: "/Images/hb4.jpg",
   },
 ];
 
