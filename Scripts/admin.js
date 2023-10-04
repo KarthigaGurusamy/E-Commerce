@@ -273,6 +273,7 @@ const RejectOrder = (orderid) => {
 };
 
 const OrdersPage = () => {
+  console.log("Hello");
   let ordersArr = JSON.parse(localStorage.getItem("orders"));
   let getItemsArr = JSON.parse(localStorage.getItem("buy"));
   let usersDataArr = JSON.parse(localStorage.getItem("users"));
