@@ -54,15 +54,15 @@ window.addEventListener("load", () => {
   if (!localStorage.getItem("products")) {
     localStorage.setItem("products", JSON.stringify(staticProducts));
   }
-  if (location.pathname === "/User/home.html") {
+  if (location.pathname === "/E-Commerce/User/home.html") {
     ProductsLoadAction();
     CartCountAction();
   }
-  if (location.pathname === "/User/cart.html") {
+  if (location.pathname === "/E-Commerce/User/cart.html") {
     ViewCartProducts();
     CartCountAction();
   }
-  if (location.pathname === "/User/orders.html") {
+  if (location.pathname === "/E-Commerce/User/orders.html") {
     DisplayOrders();
     CartCountAction();
   }
@@ -71,7 +71,7 @@ window.addEventListener("load", () => {
 const LogOutAction = () => {
   sessionStorage.removeItem("adminemail");
   sessionStorage.removeItem("adminid");
-  window.location.replace("/index.html");
+  window.location.replace("/E-Commerce/index.html");
 };
 
 const CartCountAction = () => {
