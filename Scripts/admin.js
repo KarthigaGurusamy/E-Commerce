@@ -5,28 +5,28 @@ let staticProducts = [
     price: 1000,
     description:
       "Long Lasting And Highly Comfortable New Ladies Handbag Pink Color Gender: Women",
-    image: "Images/hb1.jpg",
+    image: "https://media.istockphoto.com/id/1393144771/photo/pink-womens-stylish-bag-of-rectangular-shapes.jpg?s=612x612&w=0&k=20&c=t1To8tgeiJCC2Mt0dlGOo0tET97orvBW_C3rIhoAt3s=",
   },
   {
     id: 2,
     productName: "Brown Bag",
     price: 2000,
     description: "Tote Bag With Detachable Sling Strap",
-    image: "Images/hb2.jpg",
+    image: "https://media.istockphoto.com/id/1367616249/photo/leather-bag.jpg?s=612x612&w=0&k=20&c=ZFLYmFegX9LwTzGYU65gyAMDQJ6X2Qf4gCKkaq79zDI=",
   },
   {
     id: 3,
     productName: "Grey Bag",
     price: 1500,
     description: "Grey Solid Shoulder Bag",
-    image: "Images/hb3.jpg",
+    image: "https://media.istockphoto.com/id/1362790282/photo/womens-bag-of-grey-color-genuine-leather-grey-painted-wooden-background.jpg?s=612x612&w=0&k=20&c=CeasmmH8ziXj5gjuSaD-Rc4GmyZI5us9Y68Sm7gD11A=",
   },
   {
     id: 4,
     productName: "Purple Bag",
     price: 1000,
     description: "Reptilian Pattern Satchel Bag with Detachable Strap",
-    image: "Images/hb4.jpg",
+    image: "https://media.istockphoto.com/id/478992166/photo/designer-bag.jpg?s=612x612&w=0&k=20&c=8oQpzM61m1aLP4SJIJHOL4bwxsz7XW63iJschl1Df5s=",
   },
 ];
 
