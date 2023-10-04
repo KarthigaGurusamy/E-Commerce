@@ -41,7 +41,7 @@ window.addEventListener("load", () => {
   if (!localStorage.getItem("products")) {
     localStorage.setItem("products", JSON.stringify(staticProducts));
   }
-  if (location.pathname === "/Admin/home.html") {
+  if (location.pathname === "/E-Commerce/Admin/home.html") {
     ProductDetilsLoad();
   }
   if (location.pathname === "/Admin/orders.html") {
