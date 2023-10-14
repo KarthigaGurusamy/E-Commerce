@@ -51,7 +51,8 @@ window.addEventListener("load", () => {
 
 const RemoveToast = (editId=0) => {
   document.getElementById("toastmsg").innerHTML = "";
-  window.location.replace("/E-Commerce/Admin/home.html");
+  location.href="/E-Commerce/Admin/home.html";
+  // window.location.replace("");
 };
 const displayToast = (editId=0) => {
   // console.log("hello");
